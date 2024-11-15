@@ -1,0 +1,25 @@
+{
+  "name": "movie-watchlist",
+  "version": "1.0.0",
+  "description": "A movie watchlist application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "movies": "node --watch server.js"
+  },
+  "author": "AOA",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^2.1.0",
+    "body-parser": "^1.20.3",
+    "bson": "^6.9.0",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "mongodb": "^3.3.4"
+    
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  }
+}

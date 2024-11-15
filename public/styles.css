@@ -1,0 +1,12 @@
+body {
+    background: #8287ec;
+}
+
+
+.submit-btn, .editable-inputs {
+    display: none;
+}
+
+.show-input {
+    display: block;
+}
